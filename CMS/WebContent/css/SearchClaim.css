@@ -1,0 +1,80 @@
+.card.searchbox {
+	position: absolute;
+	align: center;
+	width: 1087px;
+	margin-left: 100px;
+	margin-top: 100px;
+	/* padding: 10px 40px 10px 10px; */
+	font-size: 20px;
+	height: 40px;
+	padding: 10px;
+	margin-top: 100px;
+}
+
+.card1.tabledata {
+	width: max-content;
+	margin-top: 200px;
+	margin-left: 110px;
+}
+.searchlabel {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 25px;
+    text-align:center;
+    letter-spacing: 1px;
+}
+.card {
+	width: 1087px;
+	/* height: 50px; */
+	margin-top: 100px;
+	margin-left: 123px;
+	background-color: white;
+	padding: 15px 15px 15px 15px;
+	border: 1px solid #5c5857;
+	text-align: left;
+	letter-spacing: .1px;
+	border-radius: 15px;
+}
+.card1{
+	padding: 15px 15px 15px 15px;
+	background-color: white;
+	border-radius: 15px;
+	margin-left: 200px;
+	margin-top:20px;
+	width:max-content;
+}
+.form{
+	margin-left:220px;
+}
+#errorlabel {
+    color: #cc2323;
+    margin-top: 30px;
+    text-align: center;
+    width: 1060px;
+
+}
+#cssmenu>ul>li.searchclaim>a:after {
+    background-color: #47c9af;
+}
+.datepicker {
+    position: absolute;
+    width: max-content;
+    z-index: 10;
+    border-radius: 10px;
+    border-width: .5px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+}
+.name,.dateofbirth{
+	
+    width: 260px;
+    margin-top: 5px;
+    font-size: 20px;
+    height: 35px;
+}
+.name{
+	
+	margin-left: -50px;
+
+	}

@@ -1,0 +1,268 @@
+.profilecontainer {
+    position: absolute;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #5c5857;
+    text-align: left;
+    letter-spacing: .1px;
+    border-radius: 25px;
+    width: 1150px;
+    height: 670px;
+    margin-left: 80px;
+    margin-top: 100px;
+    background: url(../Resources/images/containerbackground1.jpg) no-repeat;
+    background-size: cover;
+
+}
+
+
+.profilelabel {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+
+
+}
+.nomineecontainer{
+    position: absolute;
+    margin-top: 850px;
+    margin-left: 400px;
+    width:600px;
+    height:350px;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #5c5857;
+    text-align: left;
+    letter-spacing: .1px;
+    border-radius: 25px;
+    background: url(../Resources/images/containerbackground1.jpg) no-repeat;
+    background-size: cover;
+
+}
+.nomineelabel{
+    text-align: center;
+    font-size: 35px;
+    width:600px;
+    margin-left: 20px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+.inputs {
+    margin-top: 40px;
+    margin-left: 65px;
+    width: 1060px;
+    height: auto;
+
+}
+
+.gender {
+    padding: 10px 0px 10px 0px;
+    width: 310px;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+#errorlabel {
+
+    color: #cc2323;
+    margin-top: 30px;
+    text-align: center;
+    width: 1150px;
+
+
+}
+.datepicker {
+    position: absolute;
+    width: max-content;
+    z-index: 10;
+    border-radius: 10px;
+    border-width: .5px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+}
+
+.submit {
+
+    height: 50px;
+    width: 130px;
+}
+
+.errorlabel {
+    color: #cc2323;
+    margin-top: 20px;
+    text-align: center;
+    width: 1030px;
+    height: 80px;
+    text-align: center;
+
+}
+
+#cssmenu>ul>li.profileupdate>a:after {
+    background-color: #47c9af;
+}
+
+.footer-distributed {
+    margin-top: 850px;
+}
+.name, .contact, .dateofbirth, .emailaddress, .password, .city, .state,
+.zipcode, .address, .nomineecount,.insurancetype,.insurancetype2,.insuranceamount,.maxclaimableamount,.nomineenames,.nomineenamelist{
+
+    width: 260px;
+    margin-top: 5px;
+    font-size: 20px;
+    height: 35px;
+}
+
+#firstname, .dateofbirth, .contact,.city,.zipcode,.nomineenamelist {
+    margin-top: 12px;
+    margin-left: 40px;
+}
+
+#lastname, .emailaddress,  .state,.maxclaimableamount{
+    margin-left: 250px;
+}
+.contact{
+    position:absolute;
+}
+.state{
+    position:absolute;
+    margin-top: 110px;
+    margin-left: 605px;
+}
+.maxclaimableamount{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 605px;
+
+}
+.address{
+    position: absolute;
+    margin-left: 41px;
+    margin-top: 225px;
+}
+.city{
+    position:absolute;
+    margin-top: 80px
+}
+.zipcode{
+    position:absolute;
+    margin-top: 150px;
+}
+.insurancetypediv{
+    position:absolute;
+    margin-left: 605px;
+    width: max-content;
+    margin-top: -40px;
+    text-align:center;
+}
+
+.insurancetype{
+    width:auto;
+    height:50px;
+    float:left;
+    font-size: 17px;
+}
+.insuranceamount{
+    float: right;
+    width: 150px;
+    margin-left: 30px;
+}
+.insurancetypediv2{
+    position:absolute;
+    margin-left: 405px;
+    width: max-content;
+    margin-top: -60px;
+    text-align:center;
+}
+.insurancetype2{
+    width:auto;
+    height:50px;
+    font-size: 17px;
+}
+.nomineenamelist{
+    position: absolute;
+    width:auto;
+    height:50px;
+    margin-top: 60px;
+    margin-left: 70px;
+    font-size: 17px;
+}
+.nomineenamesbutton{
+    position:absolute;
+    margin-top: 24px;
+    margin-left: -25px;
+    width:20px;
+    height:20px;
+    border:none;
+    border-radius: 25px;
+    background: url(../Resources/icons/plus.png) no-repeat ;
+}
+
+.nomineenameinputdiv{
+    margin-left: -25px;
+}
+
+.nomineenamesdiv{
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.buttoncontainer{
+    margin-left: 680px;
+    margin-top: 210px;
+
+
+}
+.reset{
+    margin-left: 50px;
+    height: 50px;
+    width: 120px;
+}
+.footer-distributed {
+    position: absolute;
+    margin-top: 1250px;
+}
+#i1,#i2,#i3,#i4,#i5,#i6,#i7,#i8,#i9,#i10,#i11,#i12,#i13{
+
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 28px;
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    background:  url(../Resources/icons/erroricon.png) no-repeat;
+    visibility: hidden;
+}
+#i5{
+    margin: 30px 0px 0px 365px;
+}
+#i6{
+    margin-top: -2px;
+}
+#i7{
+    margin-left: 9px;
+    margin-top: 37px;
+}
+#i8{
+    margin-left: 5px;
+    margin-top: 37px;
+}
+#i9{
+    margin-left: 15px;   
+}
+#i10{
+    margin-top: -40px;
+    margin-left: 328px;
+}
+#i11{
+    margin-top: 100px;
+    margin-left: 575px;
+}
+#i12,#i13{
+    margin-left: 18px;
+}

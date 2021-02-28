@@ -1,0 +1,34 @@
+.inputs{
+    position: absolute;
+    margin: 30px 0px 0px 30px;
+    width: max-content;
+    height:max-content;
+    color:black;
+    border-radius: 15px;
+    background-color:#d9d9d9;
+}
+.card{
+	margin-left: 500px;
+	margin-top: 50px;
+	
+}
+.card1{
+	margin-left:100px;
+	margin-top:100px;
+	background-color: white;
+	border-radius:15px;
+	width:1050px;
+	height: max-content;
+}
+.name{
+	 width: 200px;
+    margin-top: 5px;
+    font-size: 15px;
+    height: 25px;
+}
+#cssmenu>ul>li.claimprocess>a:after {
+    background-color: #47c9af;
+}
+.footer-distributed {
+    margin-top: 350px;
+}

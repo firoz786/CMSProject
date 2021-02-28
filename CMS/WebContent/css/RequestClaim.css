@@ -1,0 +1,124 @@
+.requestclaimcontainer{
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #5c5857;
+    text-align: left;
+    letter-spacing: .1px;
+    border-radius: 25px;
+    width: 800px;
+    height: 500px;
+    margin-left: 260px;
+    margin-top: 70px;
+    background: url(../Resources/images/containerbackground1.jpg);
+    background-size: cover;
+}
+.name,.dateofbirth,.insurancetype,.maxclaimableamount,.subinsurancetype2,.finalclaimableamount{
+
+    width: 260px;
+    margin-top: 5px;
+    font-size: 20px;
+    height: 35px;
+}
+.requestclaimlabel{
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+.inputs {
+    margin-top: 50px;
+    margin-left: 70px;
+    width: 360px;
+    height: 480px;
+
+}
+.datepicker {
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    z-index: 10;
+    border-radius: 10px;
+    border-width: .5px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+}
+.buttoncontainer{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 200px;
+
+
+}
+.reset{
+    margin-left: 70px;
+    height: 50px;
+    width: 120px;
+}
+
+.submit {
+    height: 50px;
+    width: 130px;
+}
+
+#errorlabel {
+    color: #cc2323;
+    text-align: center;
+    margin-top: 10px;
+    width: 830px;
+    height: 30px;
+    text-align: center;
+}
+
+#cssmenu>ul>li.claimrequest>a:after {
+    background-color: #47c9af;
+}
+#memberid,#lastname,.insurancetype2, .contact,.city,.zipcode,.nomineenamelist {
+    margin-top: 12px;
+    margin-left: 50px;
+}
+
+#firstname{
+    margin-left: 90px;
+}
+.insurancetypediv2{
+    position:absolute;
+    margin-left: 410px;
+    width: max-content;
+    margin-top: -68px;
+    text-align:center;
+}
+.insurancetype2{
+    position:absolute;
+    width:130px;;
+    height:50px;
+    font-size: 17px;
+}
+.maxclaimableamount{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 90px;
+
+}
+.dateofbirth{
+    position: absolute;
+    margin-left: -323px;
+    margin-top: 80px;
+}
+.subinsurancetype2{
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 12px;
+    width:auto;
+    height:50px;
+    font-size: 17px
+}
+.finalclaimableamount{
+    position : absolute;
+    margin-top: 150px;
+    margin-left: -325px;
+}
+.footer-distributed {
+    position: absolute;
+    margin-top: 20px;
+}

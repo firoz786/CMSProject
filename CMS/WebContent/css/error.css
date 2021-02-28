@@ -1,0 +1,25 @@
+.successlabel{
+    position: absolute;
+    font-size: 50px;
+    margin-top: 50px;
+    width:1355px;
+    text-align: center;
+
+}
+.successlabel label{
+    color:white;
+
+}
+.registerid{
+    position: absolute;
+    margin-top: 170px;
+    width: 1355px;
+    text-align: center;
+    font-size: 30px;
+}
+.registerid label{
+    color:white;
+}
+.footer-distributed {
+    margin-top: 350px;
+}

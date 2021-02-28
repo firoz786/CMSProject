@@ -1,0 +1,115 @@
+.paragraphcontainer {
+    position: absolute;
+    width: 845px;
+    height: 630px;
+    font-size: 20px;
+    margin-left: 12px;
+    margin-top: 150px;
+    color: white;
+    letter-spacing: .4px;
+     background: url(../Resources/images/registration.png);
+    background-size: cover;
+
+}
+
+.registrationcontainer {
+    position: absolute;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #5c5857;
+    text-align: left;
+    letter-spacing: .1px;
+    border-radius: 25px;
+    width: 400px;
+    height: 700px;
+    margin-left: 860px;
+    margin-top: 100px;
+    background: url(../Resources/images/containerbackground1.jpg);
+    background-size: cover;
+}
+.name, .contact, .dateofbirth, .emailaddress, .password, .city, .state,
+.zipcode, .address, .nomineecount,.insurancetype,.insuranceamount,.maxclaimableamount,.nomineenames{
+    width: 260px;
+    margin-top: 5px;
+    font-size: 20px;
+    height: 35px;
+}
+
+.registrationlabel {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.inputs {
+    margin-top: 50px;
+    margin-left: 70px;
+    width: 360px;
+    height: 480px;
+
+}
+
+.gender {
+    padding: 10px 0px 10px 0px;
+    width: 310px;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.datepicker {
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    z-index: 10;
+    border-radius: 10px;
+    border-width: .5px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+}
+
+.buttoncontainer{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 30px;
+    
+
+}
+.reset{
+    margin-left: 70px;
+    height: 50px;
+    width: 120px;
+}
+
+.submit {
+    height: 50px;
+    width: 130px;
+}
+
+#errorlabel {
+    position: absolute;
+    color: #cc2323;
+    margin-top: 185px;
+    margin-left: 860px;
+    text-align: center;
+    width: 450px;
+    height: 50px;
+}
+
+#cssmenu>ul>li.registration>a:after {
+    background-color: #47c9af;
+}
+
+.footer-distributed {
+    margin-top: 850px;
+}
+#i1,#i2,#i3,#i4,#i5,#i6,#i7{
+
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    background:  url(../Resources/icons/erroricon.png) no-repeat;
+    visibility: hidden;
+}

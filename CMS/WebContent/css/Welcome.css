@@ -1,0 +1,93 @@
+.welcomeheadcontainer{
+    position: absolute;
+    margin: 10px 0px 0px 10px;
+    width: 1348px;
+    height: 480px;
+}
+.headimage {
+    position: absolute;
+    background: url('../Resources/images/headimage.png');
+    border-radius: 20px;
+    width: 995px;
+    height: 480px;
+}
+.logincontainer {
+    position: absolute;
+    width: 346px;
+    height: 480px;
+    margin-left: 998px;
+    background:  #fff;
+    border-radius: 20px;
+    padding: 60px 0 40px 0;
+    box-sizing: border-box;
+    background: url(../Resources/images/containerbackground1.jpg);
+}
+.loginlabel{
+
+    margin-top: -40px;
+    width: 346px;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.subloginlabel{
+    margin-top: 20px;
+    width: 346px;
+    font-size: 15px;
+    letter-spacing: .5px;
+    text-align: center;
+}
+.inputs {
+    margin-top: 30px;
+    margin-left: 15px;
+    width: min-content;
+
+}
+.name,.password{
+    width: 260px;
+    margin-top: 10px;
+    background-color: cyan;
+    font-size: 20px;
+    height: 35px;
+}
+.buttoncontainer{
+
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.submit {
+
+    height: 40px;
+    width: 80px;
+}
+.reset{
+    margin-left: 40px;
+    height: 40px;
+    width: 80px;
+}
+.forgetpassword{
+    margin: 7px 0px 0px 7px;
+}
+#errorlabel {
+    color: #cc2323;
+    margin-top: 30px;
+    text-align: center;
+    width: 346px;
+    height: 80px;
+}
+#cssmenu>ul>li.welcome>a:after {
+    background-color: #47c9af;
+}
+
+.footer-left{
+    margin-top: -20px;
+}
+.footer-center{
+    margin-top: -25px;
+}
+.footer-right{
+ margin-top: -15px;   
+}
+.footerdiv{
+    margin-top: 500px;
+}

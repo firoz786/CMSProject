@@ -1,0 +1,28 @@
+.footer-distributed {
+	position: absolute;
+	margin-top: 80px;
+}
+
+.header label {
+	color: white;
+	font-size: 50px;
+}
+
+.header {
+	margin-left: 80px;
+	width: 1200px;
+	text-align: center;
+}
+
+.paragraph {
+	color: white;
+	text-align: center;
+	margin-left: 400px;
+	margin-top: 80px;
+	font-size: 30px;
+	width: 600px;
+	height: 200px;
+}
+#cssmenu>ul>li.welcome>a:after {
+    background-color: #47c9af;
+}

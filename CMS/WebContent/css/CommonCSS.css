@@ -1,0 +1,140 @@
+body {
+    background: url(../Resources/images/background.jpg) no-repeat;
+    background-color: black;
+    background-size: 100% 100;
+    width: 95%;
+    height: 95%;
+    color:black;
+    
+}
+label{
+    color:black;
+}
+.name, .contact, .dateofbirth, .emailaddress, .password, .city, .state,
+.zipcode, .address, .nomineecount,.insurancetype,.insurancetype2,.insuranceamount,.maxclaimableamount,.nomineenames,.nomineenamelist,.subinsurancetype2,.finalclaimableamount {
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: left;
+    letter-spacing: .1px;
+    border-radius: 10px;
+    background: url(../Resources/icons/person.png) no-repeat 265px;
+    background-color: #696969;
+}
+
+
+.insuranceamount{
+    background: none;
+    background-color: #696969;
+}
+.maxclaimableamount{
+    background: none;
+    background-color: #696969;
+}
+
+.contact {
+    background: url(../Resources/icons/contact.png) no-repeat 265px;
+    background-color: #696969;
+}
+
+.password {
+    background: url(../Resources/icons/password.png) no-repeat 265px;
+    background-color: #696969;
+}
+
+.dateofbirth {
+    background: url(../Resources/icons/dob.png) no-repeat 265px;
+    background-color: #696969;
+}
+
+.emailaddress {
+    background: url(../Resources/icons/mail.png) no-repeat 265px;
+    background-color: #696969;
+}
+
+.city {
+    background: url(../Resources/icons/city.png) no-repeat 265px;
+    background-color: #696969;
+}
+
+.address {
+    background: none;
+}
+.state{
+    background: url(../Resources/icons/state.png) no-repeat 265px;
+    background-color: #696969;
+}
+.zipcode {
+    background: url(../Resources/icons/zipcode.png) no-repeat 265px;
+    background-color: #696969;
+}
+
+.radio {
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: left;
+    letter-spacing: .1px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    background: url(../Resources/icons/person.png) no-repeat 265px;
+    background-color: #696969;
+}
+
+.button, .submit,.reset {
+    padding: 10px;
+    background-color: #4C9A39;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+
+.button:hover,.reset:hover, .submit:hover {
+    background-color: #376D29;
+    color: #fff;
+}
+.buttoncontainer{
+    width: max-content;
+    height: max-content;
+}
+.forgetpassword{
+    position: absolute;
+    color:blue;
+}
+.forgetpassword:visited{
+    color: purple;
+}
+.forgetpassword:hover{
+    color:#3399ff;  
+}
+
+.address {
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #fff;
+    text-align: left;
+    color: white;
+    letter-spacing: .1px;
+    border-radius: 10px;
+    width: 260px;
+    font-size: 20px;
+    resize: none;
+    height: 70px;
+    background-color: #696969;
+}
+
+.text, .password:focus {
+    border-radius: 4px;
+}
+
+.radio {
+    margin: 0 10px 0 10px;
+    width: 15px;
+    height: 15px;
+}
+select:focus,input:focus,textarea:focus{
+    border-radius: 4px;
+}
